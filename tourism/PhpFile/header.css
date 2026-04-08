@@ -1,0 +1,79 @@
+.link{
+    height:40px;
+    width: 100%;
+}
+
+li{
+    font-size: 18px;
+}
+#LinkButton button{
+    height:35px;
+}
+#LinkButton a{
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+#blink {
+    width:200px;
+}
+#blink h1{
+    font-size: 20px;
+}
+#leftNav{
+    margin: auto;
+}
+#icon{
+    height:25px;
+    margin-left: 20px;
+    margin-top:6px;
+}
+
+
+#alogin,#cpassword,#history,#tickets{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #03DAc6 ;
+    margin-left: 20px;
+    position: relative;
+    top:6px;
+} 
+#RightSide{
+    display: flex;
+}
+#RightSide b{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20px;
+    position: relative;
+    top:6px;
+}
+
+#containerRight {
+    display: flex;
+}
+#logout{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #03DAc6 ;
+    margin-left: 20px;
+    position: relative;
+    top:2px;
+    right: 10px;
+}
+#RightSide strong{
+font-size: 20px;
+color: whitesmoke;
+
+}
+#RightSide{
+    margin-left: 37%;
+
+}

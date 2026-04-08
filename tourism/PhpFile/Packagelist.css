@@ -1,0 +1,74 @@
+.mycard1{
+   margin: auto;
+   margin-top:  40px;
+   width: 90%;
+   height: 60%;
+   border: 2px solid black;
+}
+.mycard1 img{
+   width: 40%;
+}
+.mycard1 h2{
+   margin: 30px;
+   color: #ECDBBA;
+}
+.mycard1 h3{
+   margin-top: 40px;
+   color: #FF1E56;
+}
+.mycard1 h5{
+   margin: 20px;
+   color: white;
+   opacity: 1;
+}
+.mycard1 h4{
+   margin-top: 10px;
+    font-size: 28px;
+   color: lightcoral;
+   display: none; 
+}
+
+#PackageDate input{
+   text-align: center;
+   margin: 10px;
+   margin-top: 20px;
+   border-radius: 10px;
+   height: 40px;
+  
+}
+
+textarea{
+   margin-bottom: 20px;
+   margin-top: 10px;
+   border-radius: 10px;
+   height: 200px;
+   font-size: 20px;
+   
+}
+.mycard1:hover{
+   animation-name: hover;
+   animation-duration: 0.5s;
+   animation-timing-function: ease-in-out;
+   animation-fill-mode:both;
+   position: relative;
+}
+@keyframes hover {
+   from{
+       bottom:0px;
+   }
+   to{
+       bottom:0px;
+   }
+}
+form{
+   background-color: black;
+   color: white;
+}
+.alert{
+   margin-top:30px;
+   font-size:20px;
+}
+#PackageDate{
+   margin-top:20px;
+   font-size:20px;
+}

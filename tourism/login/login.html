@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="http://localhost/Project/tourism/PhpFile/myProject.css">
+</head>
+<body>
+<!-- <img src="https://imacorp.com/wp-content/uploads/2019/06/login-page-bg-768x425.jpg" alt=""> -->
+<img src="https://thumbs.dreamstime.com/b/light-orange-abstract-background-presentation-design-banner-backdrop-201388004.jpg" alt="">
+  <div class="container" id="container">
+    <div class="form-container sign-up-container">
+      <form action="http://localhost/Project/tourism/PhpFile/signup.php" method="post">
+        <h1>Create Account</h1>
+        <input type="text" placeholder="FullName"  name="FullName"  required/>
+        <input type="text" placeholder="Mobile Number" name="MobileNumber"  required/>
+        <input type="email" placeholder="Email Id"  name="EmailId" required/>
+        <input type="password" placeholder="Password" name="Password" id="Password" required>        
+        <button id="mybtn" name="SignUp">Sign Up</button>
+      </form>
+    </div>
+    <div class="form-container sign-in-container">
+      <form action="http://localhost/Project/tourism/PhpFile/login.php" method="post">
+        <h1>Sign in</h1>
+        <input type="email" placeholder="Email" name="EmailId" required/>
+        <input type="password" placeholder="Password" name="Password" required/>
+        <a href="http://localhost/Project/tourism/PhpFile/fwe.php">Forgot your password?</a>
+        <button name="Login">Sign In</button>
+      </form>
+    </div>
+    <div class="overlay-container">
+      <div class="overlay">
+        <div class="overlay-panel overlay-left">
+          <h1>Welcome Back!</h1>
+          <p>To keep connected with us please login with your personal info</p>
+          <button class="ghost" id="signIn">Sign In</button>
+        </div>
+        <div class="overlay-panel overlay-right">
+          <h1>Hello, Friend!</h1>
+          <p>Enter your personal details and start journey with us</p>
+          <button class="ghost" id="signUp">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    const signUpButton = document.getElementById('signUp');
+const signInButton = document.getElementById('signIn');
+const container = document.getElementById('container');
+
+signUpButton.addEventListener('click', () => {
+	container.classList.add("right-panel-active");
+});
+
+signInButton.addEventListener('click', () => {
+	container.classList.remove("right-panel-active");
+});
+  </script>
+</body>
+</html>
